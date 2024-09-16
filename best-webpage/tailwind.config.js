@@ -1,13 +1,32 @@
-// tailwind.config.js
+// // tailwind.config.js
+// module.exports = {
+//   purge: [],
+//   purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
+//   theme: {
+//     extend: {},
+//   },
+//   variants: {
+//     extend: {},
+//   },
+//   plugins: [],
+// }
+
+// module.exports = {
+//   content: [
+//     './public/**/*.html',
+//     './src/**/*.{js,jsx,ts,tsx,vue}',
+//   ]
+// }
+
 module.exports = {
-  purge: [],
-  purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
-  darkMode: false, // or 'media' or 'class'
+  content: [
+    './index.html',
+    './src/**/*.{vue,js,ts,jsx,tsx}',
+  ],
   theme: {
-    extend: {},
-  },
-  variants: {
-    extend: {},
+    extend: {
+      // Any custom styles or extensions go here
+    },
   },
   plugins: [],
 }
