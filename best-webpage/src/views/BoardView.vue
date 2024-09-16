@@ -18,12 +18,12 @@ Kopírovať kód
 
         <div class="grid grid-cols-1  md:grid-cols-2  gap-10">
             <BoardMember image="/kiko.png" name="Kristian Kapec" position="President" mail="k.k@best.com" />
-            <BoardMember image="/simon.png" name="Šimon Koreň" position="Secretary" mail="k.k@best.com" />
+            <BoardMember image="/kiko.png" name="Šimon Koreň" position="Secretary" mail="k.k@best.com" />
         </div>
         <div class="grid grid-cols-1  md:grid-cols-3  gap-10">
-            <BoardMember image="/andrej.png" name="Andrej Bitarovec" position="VP4CR" mail="k.k@best.com" />
-            <BoardMember image="/sofia.png" name="Sofia Dobranská" position="VP4HR" mail="k.k@best.com" />
-            <BoardMember image="/saska.png" name="Alexandra Rybianska" position="VP4PR" mail="k.k@best.com" />
+            <BoardMember image="/kiko.png" name="Andrej Bitarovec" position="VP4CR" mail="k.k@best.com" />
+            <BoardMember image="/kiko.png" name="Sofia Dobranská" position="VP4HR" mail="k.k@best.com" />
+            <BoardMember image="/kiko.png" name="Alexandra Rybianska" position="VP4PR" mail="k.k@best.com" />
         </div>
     </div>
 </template>
