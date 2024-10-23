@@ -5,6 +5,7 @@ import BoardView from '@/views/BoardView.vue'
 import BratislavaView from '@/views/BratislavaView.vue'
 import EventsView from '@/views/EventsView.vue'
 import InternationalView from '@/views/InternationalView.vue'
+import JoinUsView from '@/views/JoinUsView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -38,6 +39,11 @@ const router = createRouter({
       path: '/BEST-international',
       name: 'BEST-international',
       component: InternationalView
+    },
+    {
+      path: '/join-us',
+      name: 'join-us',
+      component: JoinUsView
     }
   ]
 })

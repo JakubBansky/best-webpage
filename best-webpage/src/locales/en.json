@@ -1,0 +1,32 @@
+{
+	"Navbar": {
+		"home": "Home",
+		"about-us": "About us",
+		"events": "Events",
+		"partners": "Partners",
+		"intBest": "BEST International",
+		"baBest": "BEST Bratislava",
+		"board": "Board",
+		"joinUs": "Join us!"
+	},
+	"Home": {
+		"whoWeAre": "Who are we?",
+		"textWhoWeAre": "BEST Bratislava is a student non-profit organization operating at the Slovak Technical University in Bratislava. BEST Bratislava is one of 84 local BEST groups operating in 30 European countries. Our main activities include organizing softskill trainings - Training day, organizing technical competitions EBEC and organizing a summer course for technical school students from all over Europe. We were founded 25 years ago and have been providing supplementary education to all STU students ever since."
+		,"whatOffer": "What do we offer?",
+		"whatOfferText": "BEST strives to help European students of technology to become more internationally minded, by reaching a better understanding of European cultures and developing capacities to work on an international basis. Therefore we create opportunities for the students to meet and learn from one another through our academic and non-academic events and educational symposia. 'Learning makes the master', but the final goal is a good working place, therefore we offer services like an international career centre to broaden the horizons for the choice on the job market. Our priority is to offer high quality services for students all over Europe. Thus, we manage to bring all the partners in the 'student - company - university' triangle closer."
+	},
+	"Identity":{
+		"identity": "Identity of BEST",
+		"vision": "Vision - Empowered Diversity",
+		"mision": "Mission - Developing Students",
+		"visionText": "People understand and respect different cultures and societies. The environment of empowered diversity supports people in applying their full potential and acting responsibly.",
+		"misionText": "BEST helps students to achieve an international mindset, to reach a better understanding of cultures and societies and to develop the capacity to work in culturally diverse environments."
+	},
+	"Values":{
+		"fun": "fun",
+		"openMindness": "openMindness",
+		"friendship": "friendship",
+		"improvement": "improvement",
+		"flexibility": "flexibility"
+	}
+}

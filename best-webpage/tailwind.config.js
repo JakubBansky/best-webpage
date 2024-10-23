@@ -1,23 +1,3 @@
-// // tailwind.config.js
-// module.exports = {
-//   purge: [],
-//   purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
-//   theme: {
-//     extend: {},
-//   },
-//   variants: {
-//     extend: {},
-//   },
-//   plugins: [],
-// }
-
-// module.exports = {
-//   content: [
-//     './public/**/*.html',
-//     './src/**/*.{js,jsx,ts,tsx,vue}',
-//   ]
-// }
-
 module.exports = {
   content: [
     './index.html',
@@ -25,8 +5,13 @@ module.exports = {
   ],
   theme: {
     extend: {
-      // Any custom styles or extensions go here
+      colors: {
+        primary: '#160c32',        // Primary blue
+        secondary: '#d0d7d6',      // Secondary gray
+        textPrimary: '#212529',    // Dark text color
+        textSecondary: '#6c757d',  // Muted gray text color
+      },
     },
   },
-  plugins: [],
+  plugins: []
 }

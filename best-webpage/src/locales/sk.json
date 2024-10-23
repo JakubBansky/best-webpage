@@ -1,0 +1,26 @@
+{
+	"Navbar": {
+		"home": "Domov",
+		"about-us": "O nás",
+		"events": "Eventy",
+		"partners": "Partnery"
+	},
+	"Home": {
+		"whoWeAre": "Kto sme?",
+		"textWhoWeAre": "BEST Bratislava je študentská nezisková organizácia pôsobiacia na Slovenskej technickej univerzite v Bratislave. BEST Bratislava je jedna z 84 lokálnych BEST skupín pôsobiacich v 30 krajinách Európy. Medzi naše hlavné aktivity patrí organizovanie softskill tréningov- Tréning day, organizovanie technických súťaží EBEC a organizovanie letného kurzu pre študentov technických škol z celej Európy. Vznikli sme pred 25 rokmi a odvtedy prinášame všetkým študentom STU doplnkové vzdelanie."
+	},
+	"Identity":{
+		"identity": "SK Identity of BEST",
+		"vision": "SK Vision - Empowered Diversity",
+		"mision": "SK Mission - Developing Students",
+		"visionText": "SK People understand and respect different cultures and societies. The environment of empowered diversity supports people in applying their full potential and acting responsibly.",
+		"misionText": "SK BEST helps students to achieve an international mindset, to reach a better understanding of cultures and societies and to develop the capacity to work in culturally diverse environments."
+	},
+	"Values":{
+		"fun": "zábava",
+		"openMindness": "openMindness",
+		"friendship": "priateľstvo",
+		"improvement": "improvement",
+		"flexibility": "flexibilita"
+	}
+}

@@ -1,5 +1,6 @@
 <script setup>
 import Identity from '@/components/Identity.vue';
+
 </script>
 
 <template>
@@ -84,7 +85,7 @@ import Identity from '@/components/Identity.vue';
 
 </template>
 
-<style>
+<style scoped>
 section {
     margin-bottom: 5rem;
 }

@@ -2,7 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-    background-color: rgb(215, 197, 32);
-    color: black; /* Example to ensure text is readable */
+@layer base {
+  body{
+    @apply bg-[#DFF3E4];
   }
+	h1,
+	h2 {
+		@apply text-[#DFF3E4];
+    	@apply m-5
+	}
+	h1 {
+		@apply text-6xl;
+	}
+	h2 {
+		@apply text-4xl;
+	}
+	h3{
+		@apply text-4xl;
+		@apply text-[#160c32];
+	}
+}

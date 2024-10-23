@@ -5,7 +5,10 @@ import App from './App.vue'
 import router from './router'
 import 'primeicons/primeicons.css'
 
-const app = createApp(App)
+import Tooltip from "primevue/tooltip";
+
+const app = createApp(App);
+app.directive("tooltip", Tooltip);
 
 app.use(router)
 
