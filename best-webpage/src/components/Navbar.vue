@@ -7,7 +7,7 @@ import Button from "primevue/button";
 </script>
 
 <template>
-    <nav class="bg-primary flex items-center h-28 justify-between px-5">
+    <nav class="bg-primary flex items-center h-28 justify-between px-5 border-b-2 sticky top-0 z-50  opacity-90 hover:opacity-100">
 
         <!-- logo  -->
         <div class="flex items-center">

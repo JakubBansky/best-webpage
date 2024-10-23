@@ -3,24 +3,30 @@
 		"home": "Domov",
 		"about-us": "O nás",
 		"events": "Eventy",
-		"partners": "Partnery"
+		"partners": "Partnery",
+		"intBest": "BEST International",
+		"baBest": "BEST Bratislava",
+		"board": "Rada",
+		"joinUs": "Pridaj sa k nám!"
 	},
 	"Home": {
 		"whoWeAre": "Kto sme?",
-		"textWhoWeAre": "BEST Bratislava je študentská nezisková organizácia pôsobiacia na Slovenskej technickej univerzite v Bratislave. BEST Bratislava je jedna z 84 lokálnych BEST skupín pôsobiacich v 30 krajinách Európy. Medzi naše hlavné aktivity patrí organizovanie softskill tréningov- Tréning day, organizovanie technických súťaží EBEC a organizovanie letného kurzu pre študentov technických škol z celej Európy. Vznikli sme pred 25 rokmi a odvtedy prinášame všetkým študentom STU doplnkové vzdelanie."
+		"textWhoWeAre": "BEST Bratislava je študentská nezisková organizácia pôsobiacia na Slovenskej technickej univerzite v Bratislave. BEST Bratislava je jedna z 84 lokálnych BEST skupín pôsobiacich v 30 krajinách Európy. Medzi naše hlavné aktivity patrí organizovanie softskill tréningov - Tréning day, organizovanie technických súťaží EBEC a organizovanie letného kurzu pre študentov technických škôl z celej Európy. Vznikli sme pred 25 rokmi a odvtedy prinášame všetkým študentom STU doplnkové vzdelanie.",
+		"whatOffer": "Čo ponúkame?",
+		"whatOfferText": "BEST usiluje o to, aby sa európski študenti technických odborov stali medzinárodne orientovanými, dosiahli lepšie porozumenie európskym kultúram a vyvinuli schopnosti pracovať na medzinárodnej úrovni. Preto vytvárame príležitosti pre študentov, aby sa stretli a učili sa navzájom prostredníctvom našich akademických a neakademických podujatí a vzdelávacích sympózií. 'Učenie robí majstra', ale konečným cieľom je dobré zamestnanie, preto ponúkame služby ako medzinárodné kariérne centrum na rozšírenie obzorov na trhu práce. Našou prioritou je ponúkať kvalitné služby pre študentov po celej Európe. Tak sa nám darí približovať všetkých partnerov v trojuholníku 'študent - spoločnosť - univerzita' bližšie."
 	},
-	"Identity":{
-		"identity": "SK Identity of BEST",
-		"vision": "SK Vision - Empowered Diversity",
-		"mision": "SK Mission - Developing Students",
-		"visionText": "SK People understand and respect different cultures and societies. The environment of empowered diversity supports people in applying their full potential and acting responsibly.",
-		"misionText": "SK BEST helps students to achieve an international mindset, to reach a better understanding of cultures and societies and to develop the capacity to work in culturally diverse environments."
+	"Identity": {
+		"identity": "Identita BEST",
+		"vision": "Vízia - Posilnená rozmanitosť",
+		"mision": "Poslanie - Rozvoj študentov",
+		"visionText": "Ľudia rozumejú a rešpektujú rôzne kultúry a spoločnosti. Prostredie posilnenej rozmanitosti podporuje ľudí v aplikovaní ich plného potenciálu a zodpovednom konaní.",
+		"misionText": "BEST pomáha študentom dosiahnuť medzinárodné myslenie, lepšie porozumieť kultúram a spoločnostiam a rozvíjať schopnosť pracovať v kultúrne rozmanitých prostrediach."
 	},
-	"Values":{
+	"Values": {
 		"fun": "zábava",
-		"openMindness": "openMindness",
+		"openMindness": "otvorenosť",
 		"friendship": "priateľstvo",
-		"improvement": "improvement",
+		"improvement": "zlepšovanie",
 		"flexibility": "flexibilita"
 	}
 }

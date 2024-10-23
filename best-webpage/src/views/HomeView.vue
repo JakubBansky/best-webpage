@@ -31,16 +31,16 @@ import { data } from "autoprefixer";
     <section class="bg-primary p-5">
         <h1 class="text-center text-2xl text-secondary font-semibold m-0 p-5">{{ t("Identity.identity") }}</h1>
         <div class="flex max-sm:flex-col items-center">
-            <Identity class="text-secondary" icon="pi-bullseye" :header="t('Identity.vision')" 
+            <Identity class="text-secondary" icon="pi-bullseye" :header="t('Identity.vision')"
                 :text="t('Identity.visionText')" </Identity>
-                <Identity class="text-secondary" icon="pi-check" :header="t('Identity.mision')" 
-                    :text="t('Identity.misionText')"  </Identity>
+                <Identity class="text-secondary" icon="pi-check" :header="t('Identity.mision')"
+                    :text="t('Identity.misionText')" </Identity>
         </div>
     </section>
     <!-- what we offer -->
     <section class="flex justify-center items-center flex-col p-8 bg-secondary text-primary">
         <div class="w-10/12">
-            <h3 class="text-primary">
+            <h3 class="text-primary m-3">
                 {{ t("Home.whatOffer") }}
             </h3>
             {{ t("Home.whatOfferText") }}
@@ -49,8 +49,8 @@ import { data } from "autoprefixer";
     </section>
     <!-- values -->
     <section class="bg-primary flex flex-col p-5 items-center">
-        <h3 class="bg-white text-center p-3 rounded shadow-md">BEST Spirit</h3>
-        <div class="flex max-md:flex-col items-center p-5">
+        <h3 class="bg-secondary text-center p-3 rounded shadow-md">BEST Spirit</h3>
+        <div class="grid place-items-center grid-cols-1 md:grid-cols-2 md:gap-48 lg:grid-cols-5 gap-5  p-5">
             <Identity class="" icon="pi-face-smile" :header="t('Values.fun')"></Identity>
             <Identity class="" icon="pi-arrows-alt" :header="t('Values.flexibility')"></Identity>
             <Identity class="" icon="pi-user-plus" :header="t('Values.friendship')"></Identity>
@@ -58,6 +58,7 @@ import { data } from "autoprefixer";
             <Identity class="" icon="pi-comments" :header="t('Values.openMindness')"></Identity>
         </div>
     </section>
+
 
 </template>
 
