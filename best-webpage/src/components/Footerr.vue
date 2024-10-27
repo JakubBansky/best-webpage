@@ -10,8 +10,9 @@
         </p>
 
         <p>
-            <i class="pi pi-instagram mx-3"></i>
-            <i class="pi pi-facebook"></i>
+
+            <a href="https://www.instagram.com/best_bratislava/" target="_blank" rel="noopener noreferrer"> <i class="pi iconB pi-instagram mx-3"></i> </a>
+            <a href="https://www.facebook.com/best.stuba" target="_blank" rel="noopener noreferrer"> <i class="pi iconB pi-facebook"></i> </a>
         </p>
         <p>
             legal
@@ -19,3 +20,9 @@
     </div>
 
 </template>
+
+<style scoped>
+.iconB {
+    font-size: 2vw;
+}
+</style>

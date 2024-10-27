@@ -28,7 +28,7 @@ import { data } from "autoprefixer";
     </section>
 
     <!-- vision minion -->
-    <section class="bg-primary p-5">
+    <section class="bg-primary p-8">
         <h1 class="text-center text-2xl text-secondary font-semibold m-0 p-5">{{ t("Identity.identity") }}</h1>
         <div class="flex max-sm:flex-col items-center">
             <Identity class="text-secondary" icon="pi-bullseye" :header="t('Identity.vision')"
@@ -40,7 +40,7 @@ import { data } from "autoprefixer";
     <!-- what we offer -->
     <section class="flex justify-center items-center flex-col p-8 bg-secondary text-primary">
         <div class="w-10/12">
-            <h3 class="text-primary m-3">
+            <h3 class="text-primary font-semibold">
                 {{ t("Home.whatOffer") }}
             </h3>
             {{ t("Home.whatOfferText") }}
@@ -50,7 +50,7 @@ import { data } from "autoprefixer";
     <!-- values -->
     <section class="bg-primary flex flex-col p-5 items-center">
         <h3 class="bg-secondary text-center p-3 rounded shadow-md">BEST Spirit</h3>
-        <div class="grid place-items-center grid-cols-1 md:grid-cols-2 md:gap-48 lg:grid-cols-5 gap-5  p-5">
+        <div class="grid place-items-center grid-cols-1 md:grid-cols-2 md:gap-48 lg:grid-cols-5 gap-5  p-5 w-10/12">
             <Identity class="" icon="pi-face-smile" :header="t('Values.fun')"></Identity>
             <Identity class="" icon="pi-arrows-alt" :header="t('Values.flexibility')"></Identity>
             <Identity class="" icon="pi-user-plus" :header="t('Values.friendship')"></Identity>
