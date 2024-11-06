@@ -15,10 +15,8 @@ defineProps({
 </script>
 
 <template>
-    <div class="pb-8 m-5">
-        
-        <h2>{{ name }}</h2>
-        <hr class="border-t-2 border-gray-300 z-10 w-1/6" />
-        <p>{{ text }}</p>
+    <div class="mb-8  p-5 bg-primary">
+        <h3 class="text-secondary">{{ name }}</h3>
+        <p class="text-secondary  text-xl">{{ text }}</p>
     </div>
 </template>

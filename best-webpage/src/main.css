@@ -20,5 +20,7 @@
 	h3{
 		@apply text-4xl;
 		@apply text-[#160c32];
+		@apply font-semibold;
+		@apply p-3;
 	}
 }

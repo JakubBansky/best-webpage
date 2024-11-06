@@ -10,8 +10,8 @@ import BoardMember from '../components/BoardMember.vue';
             alt="Picture of our board" />
 
         <div class="text-center w-11/12 my-8 relative">
-            <h1 class=" text-3xl font-extrabold inline-block relative px-4 z-20 text-secondary bg-primary p-2 rounded-md">
-                Name Placeholder
+            <h1 class="font-extrabold inline-block relative px-4 z-20 text-secondary bg-primary p-2 rounded-md">
+                Power Rangers
             </h1>
             <hr class="absolute  inset-x-0 top-1/2 border-t-2 border-gray-300 z-10" />
         </div>

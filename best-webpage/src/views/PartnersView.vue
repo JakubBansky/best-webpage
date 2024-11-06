@@ -10,17 +10,7 @@ const carouselData = ref([
 </script>
 
 <template>
-  <div class="card">
-    <Carousel :value="carouselData" :numVisible="1" :numScroll="1" orientation="horizontal">
-      <template #item="slotProps">
-        <div class="text-center p-4">
-          <h2 v-if="slotProps.data.prefix">{{ slotProps.data.prefix }}</h2>
-          <h2 class="bigger-aligned">{{ slotProps.data.title }}</h2>
-          <h2>{{ slotProps.data.subtitle }}</h2>
-        </div>
-      </template>
-    </Carousel>
-  </div>
+  partners
 </template>
 
 <style scoped>

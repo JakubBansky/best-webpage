@@ -27,7 +27,7 @@ defineProps({
             :class="`pi ${icon} text-2xl p-5 m-3 rounded-full ${dark ? 'text-secondary bg-primary' : 'text-primary bg-secondary'}`"></i>
 
         <div class="max-sm:text-center m-3">
-            <h3 :class="`font-bold text-lg mb-1 ${dark ? 'text-primary' : 'text-secondary'}`">{{ header }}</h3>
+            <h3 :class="`font-bold text-lg p-0 mb-1 ${dark ? 'text-primary' : 'text-secondary'}`">{{ header }}</h3>
             <p :class="`${dark ? 'text-primary' : 'text-secondary'}`" >{{ text }}</p>
         </div>
     </div>
@@ -36,7 +36,7 @@ defineProps({
             :class="`bigIcon pi ${icon} p-5 m-2 mt-3 rounded-full ${dark ? 'text-secondary bg-primary' : 'text-secondary bg-primary'}`"></i>
 
         <div>
-            <h3 :class="`font-bold text-lg mb-1 ${dark ? 'text-primary' : 'text-secondary'}`">{{ header }}</h3>
+            <h3 :class="`font-bold text-lg p-0 mb-1 ${dark ? 'text-primary' : 'text-secondary'}`">{{ header }}</h3>
             <p>{{ text }}</p>
         </div>
     </div>

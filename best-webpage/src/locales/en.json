@@ -11,7 +11,7 @@
 	},
 	"Home": {
 		"whoWeAre": "Who are we?",
-		"textWhoWeAre": "BEST Bratislava is a student non-profit organization operating at the Slovak Technical University in Bratislava. BEST Bratislava is one of 84 local BEST groups operating in 30 European countries. Our main activities include organizing softskill trainings - Training day, organizing technical competitions EBEC and organizing a summer course for technical school students from all over Europe. We were founded 25 years ago and have been providing supplementary education to all STU students ever since."
+		"textWhoWeAre": "BEST Bratislava is a student non-profit organization operating at the Slovak Technical University in Bratislava. BEST Bratislava is one of 84 local BEST groups operating in 30 European countries. Our main activities include organizing softskill trainings - Training day, organizing technical competitions EBEC and organizing a summer course for technical school students from all over Europe. We were founded 33 years ago and have been providing supplementary education to all STU students ever since."
 		,"whatOffer": "What do we offer?",
 		"whatOfferText": "BEST strives to help European students of technology to become more internationally minded, by reaching a better understanding of European cultures and developing capacities to work on an international basis. Therefore we create opportunities for the students to meet and learn from one another through our academic and non-academic events and educational symposia. 'Learning makes the master', but the final goal is a good working place, therefore we offer services like an international career centre to broaden the horizons for the choice on the job market. Our priority is to offer high quality services for students all over Europe. Thus, we manage to bring all the partners in the 'student - company - university' triangle closer."
 	},
@@ -28,5 +28,23 @@
 		"friendship": "friendship",
 		"improvement": "improvement",
 		"flexibility": "flexibility"
+	},
+	"Bratislava":{
+		"workingGroups": "Our working groups:",
+		"pr":"PR - press relations",
+		"cr": "CR - companies relations",
+		"hr": "HR - human resources",
+		"textPr":"The PR team shapes the organization's image and reaches out to the public. They handle social media, create promotional materials, and engage with audiences to keep everyone informed and excited about our events and initiatives. Their goal is to communicate our values and activities to the wider community.",
+		"textCr": "The CR team specializes in building connections with companies and industry professionals. They work to secure partnerships, sponsorships, and collaborative opportunities that benefit both the organization and its members. By establishing strong relationships with companies, the CR team helps create career-oriented events, internships, and networking opportunities, bridging the gap between students and the professional world.",
+		"textHr": "The HR team manages member well-being and internal organization. They work on recruitment, organize team-building events, and address any member concerns. Their focus is on fostering a supportive environment, ensuring that every team member feels valued and engaged."
+	},
+	"International":{
+		"international":"International BEST",
+		"localGroups": "local groups",
+		"volunteers": "volunteers",
+		"countries":"countries",
+		"moreThan":"more than",
+		"inNumbers":"BEST in numbers"
 	}
+	
 }

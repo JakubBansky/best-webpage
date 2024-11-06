@@ -19,7 +19,7 @@ import { data } from "autoprefixer";
     <!-- who we are -->
     <section class="flex justify-center items-center flex-col p-8 bg-secondary">
         <div class="w-10/12">
-            <h3>
+            <h3 >
                 {{ t("Home.whoWeAre") }}
             </h3>
             {{ t("Home.textWhoWeAre") }}
@@ -29,7 +29,7 @@ import { data } from "autoprefixer";
 
     <!-- vision minion -->
     <section class="bg-primary p-8">
-        <h1 class="text-center text-2xl text-secondary font-semibold m-0 p-5">{{ t("Identity.identity") }}</h1>
+        <h3 class="text-center text-secondary m-0">{{ t("Identity.identity") }}</h3>
         <div class="flex max-sm:flex-col items-center">
             <Identity class="text-secondary" icon="pi-bullseye" :header="t('Identity.vision')"
                 :text="t('Identity.visionText')" </Identity>
@@ -40,7 +40,7 @@ import { data } from "autoprefixer";
     <!-- what we offer -->
     <section class="flex justify-center items-center flex-col p-8 bg-secondary text-primary">
         <div class="w-10/12">
-            <h3 class="text-primary font-semibold">
+            <h3 class="text-primary">
                 {{ t("Home.whatOffer") }}
             </h3>
             {{ t("Home.whatOfferText") }}
@@ -49,7 +49,7 @@ import { data } from "autoprefixer";
     </section>
     <!-- values -->
     <section class="bg-primary flex flex-col p-5 items-center">
-        <h3 class="bg-secondary text-center p-3 rounded shadow-md">BEST Spirit</h3>
+        <h3 class="text-secondary text-center">BEST Spirit</h3>
         <div class="grid place-items-center grid-cols-1 md:grid-cols-2 md:gap-48 lg:grid-cols-5 gap-5  p-5 w-10/12">
             <Identity class="" icon="pi-face-smile" :header="t('Values.fun')"></Identity>
             <Identity class="" icon="pi-arrows-alt" :header="t('Values.flexibility')"></Identity>

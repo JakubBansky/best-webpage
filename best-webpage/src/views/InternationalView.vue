@@ -2,6 +2,7 @@
 import Identity from '@/components/Identity.vue';
 import Carousel from 'primevue/carousel';
 import { ref } from 'vue';
+import { t } from "@/i18n";
 
 const carouselData = ref([
     { title: "84", subtitle: "local groups" },
@@ -13,7 +14,7 @@ const carouselData = ref([
 <template>
     <div class="">
         <h1 class="text-3xl text-center text-primary font-bold m-5">
-            International BEST
+            {{ t("International.international") }}
         </h1>
         <!-- About best -->
         <section class="flex max-md:flex-col max-md:items-center">
@@ -36,7 +37,7 @@ const carouselData = ref([
 
         <!-- best in numbers -->
         <section class="h-96 bg-primary bg  flex flex-col items-stretch justify-center">
-            <h2 class="text-center">BEST in numbers</h2>
+            <h2 class="text-center">{{ t("International.inNumbers") }}</h2>
 
             <!-- Carousel: visible on screens smaller than md, hidden on md and larger -->
             <div class="block md:hidden">
@@ -53,19 +54,19 @@ const carouselData = ref([
             </div>
 
             <!-- Static content: hidden on screens smaller than md, visible on md and larger -->
-            <div class="card hidden md:flex justify-around items-end">
+            <div class="card hidden md:flex justify-around items-end text-center">
                 <div>
                     <h2 class="bigger-aligned">84</h2>
-                    <h2>local groups</h2>
+                    <h2>{{ t("International.localGroups") }}</h2>
                 </div>
                 <div>
                     <h2 class="bigger-aligned">30</h2>
-                    <h2>countries</h2>
+                    <h2>{{ t("International.countries") }}</h2>
                 </div>
                 <div>
-                    <h2>more than</h2>
+                    <h2>{{ t("International.moreThan") }}</h2>
                     <h2 class="bigger-aligned">3300</h2>
-                    <h2>volunteers</h2>
+                    <h2>{{ t("International.volunteers") }}</h2>
                 </div>
             </div>
         </section>
@@ -73,14 +74,12 @@ const carouselData = ref([
 
         <!-- Identity of best -->
         <section class="bg-primary">
-            <h1 class="text-center text-2xl font-semibold m-5 ">Identitita BEST-u</h1>
+            <h1 class="text-center text-2xl font-semibold m-5 ">{{ t("Identity.identity") }}</h1>
             <div class="flex max-sm:flex-col items-center">
-                <Identity class="" icon="pi-bullseye" header="Vision - Empowered Diversity"
-                    text="People understand and respect different cultures and societies. The environment of empowered diversity supports people in applying their full potential and acting responsibly.">
-                </Identity>
-                <Identity class="" icon="pi-check" header="Mission - Developing Students"
-                    text="BEST helps students to achieve an international mindset, to reach a better understanding of cultures and societies and to develop the capacity to work in culturally diverse environments.">
-                </Identity>
+                <Identity class="" icon="pi-bullseye" :header="t('Identity.vision')" :text="t('Identity.visionText')"
+                    </Identity>
+                    <Identity class="" icon="pi-check" :header="t('Identity.mision')" :text="t('Identity.misionText')"
+                        </Identity>
             </div>
 
         </section>
@@ -89,15 +88,15 @@ const carouselData = ref([
         <section>
             <h1 class="text-center text-2xl font-semibold m-5">BEST spirit</h1>
             <div class="flex max-md:flex-col items-center">
-                <Identity class="" icon="pi-face-smile" header="fun" text="">
+                <Identity class="" icon="pi-face-smile" :header="t('Values.fun')" text="" dark="true">
                 </Identity>
-                <Identity class="" icon="pi-arrows-alt" header="flexibility" text="">
+                <Identity class="" icon="pi-arrows-alt" :header="t('Values.openMindness')" text="" dark="true">
                 </Identity>
-                <Identity class="" icon="pi-user-plus" header="friendship" text="">
+                <Identity class="" icon="pi-user-plus" :header="t('Values.friendship')" text="" dark="true">
                 </Identity>
-                <Identity class="" icon="pi-check-circle" header="improvement" text="">
+                <Identity class="" icon="pi-check-circle" :header="t('Values.improvement')" text="" dark="true">
                 </Identity>
-                <Identity class="" icon="pi-comments" header="open-mindness" text="">
+                <Identity class="" icon="pi-comments" :header="t('Values.flexibility')" text="" dark="true">
                 </Identity>
             </div>
         </section>
@@ -157,7 +156,6 @@ h2 {
 @media (max-width: 425px) {
     .bg {
         background-size: cover
-
     }
 }
 
