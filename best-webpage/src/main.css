@@ -4,11 +4,11 @@
 
 @layer base {
   body{
-    @apply bg-[#DFF3E4];
+    @apply bg-[#D6D7D6];
   }
 	h1,
 	h2 {
-		@apply text-[#DFF3E4];
+		@apply text-[#D6D7D6];
     	@apply m-5
 	}
 	h1 {
