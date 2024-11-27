@@ -40,12 +40,12 @@ import Button from "primevue/button";
                     {{ t("Navbar.events") }}
                 </router-link>
 
-                <router-link to="/partners" class="link" :class="{
+                <!-- <router-link to="/partners" class="link" :class="{
                     'link-active': $route.path === '/partners',
                     'link-inactive': $route.path !== '/partners',
                 }">
                     {{ t("Navbar.partners") }}
-                </router-link>
+                </router-link> -->
             </div>
         </div>
 
@@ -55,7 +55,7 @@ import Button from "primevue/button";
             <dropdown name="" icon="pi-align-justify" :links="[
                 { to: '/home', translationKey: 'Navbar.home' },
                 { to: '/events', translationKey: 'Navbar.events' },
-                { to: '/partners', translationKey: 'Navbar.partners' },
+                // { to: '/partners', translationKey: 'Navbar.partners' },
                 { to: '/BEST-Bratislava', translationKey: 'Navbar.baBest' },
                 { to: '/BEST-international', translationKey: 'Navbar.intBest' },
                 { to: '/board', translationKey: 'Navbar.board' },

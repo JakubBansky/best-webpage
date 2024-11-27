@@ -6,5 +6,8 @@
 	},
 	"editor.quickSuggestions": {
 		"strings": true
-	}
+	},
+	"prettier.vueIndentScriptAndStyle": true,
+	"prettier.bracketSameLine": true,
+	"prettier.singleAttributePerLine": true
 }

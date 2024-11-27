@@ -15,11 +15,11 @@ const router = createRouter({
       name: 'home',
       component: HomeView
     },
-    {
-      path: '/partners',
-      name: 'partners',
-      component: PartnersView
-    },
+    // {
+    //   path: '/partners',
+    //   name: 'partners',
+    //   component: PartnersView
+    // },
     {
       path: '/board',
       name: 'board',

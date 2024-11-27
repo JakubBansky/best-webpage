@@ -1,5 +1,10 @@
 <script setup>
 import BoardMember from '../components/BoardMember.vue';
+import kikoImage from '@/assets/kiko.png';
+import simonImage from '@/assets/simon.jpg';
+import sofiaImage from '@/assets/sofia.jpg';
+import favicon from '@/assets/bratislava_logo.png';
+
 </script>
 
 
@@ -17,13 +22,14 @@ import BoardMember from '../components/BoardMember.vue';
         </div>
 
         <div class="grid grid-cols-1  md:grid-cols-2  gap-10">
-            <BoardMember image="/src/assets/kiko.png" name="Kristian Kapec" position="President" mail="k.k@best.com" />
-            <BoardMember image="/src/assets/simon.jpg" name="Šimon Koreň" position="Secretary" mail="k.k@best.com" />
+            <!-- <img src="@/public/andrej.jpg" alt=""> -->
+            <BoardMember :image=kikoImage name="Kristian Kapec" position="President" mail="k.k@best.com" />
+            <BoardMember :image=simonImage name="Šimon Koreň" position="Secretary" mail="k.k@best.com" />
         </div>
         <div class="grid grid-cols-1  md:grid-cols-3  gap-10">
-            <BoardMember image="/favicon.png" name="Andrej Bitarovec" position="VP4CR" mail="k.k@best.com" />
-            <BoardMember image="/src/assets/sofia.jpg" name="Sofia Dobranská" position="VP4HR" mail="k.k@best.com" />
-            <BoardMember image="/favicon.png" name="Alexandra Rybianska" position="VP4PR" mail="k.k@best.com" />
+            <BoardMember :image=favicon name="Andrej Bitarovec" position="VP4CR" mail="k.k@best.com" />
+            <BoardMember :image=sofiaImage name="Sofia Dobranská" position="VP4HR" mail="k.k@best.com" />
+            <BoardMember :image=favicon name="Alexandra Rybianska" position="VP4PR" mail="k.k@best.com" />
         </div>
     </div>
 </template>

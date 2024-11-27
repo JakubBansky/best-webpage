@@ -1,13 +1,13 @@
 <script setup>
 import Identity from '@/components/Identity.vue';
 import Carousel from 'primevue/carousel';
-import { ref } from 'vue';
+import { ref, computed } from 'vue';
 import { t } from "@/i18n";
 
-const carouselData = ref([
-    { title: "84", subtitle: "local groups" },
-    { title: "30", subtitle: "countries" },
-    { prefix: "more than", title: "3300", subtitle: "volunteers" }
+const carouselData = computed(() => [
+    { title: "84", subtitle: t('International.localGroups') },
+    { title: "30", subtitle: t('International.countries') },
+    { prefix: t('International.moreThan'), title: "3300", subtitle: t('International.volunteers') }
 ]);
 </script>
 
