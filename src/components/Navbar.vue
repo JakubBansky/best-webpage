@@ -29,7 +29,7 @@ import Button from "primevue/button";
                 <dropdown name="Navbar.about-us" icon="pi-angle-down" :links="[
                     { to: '/BEST-Bratislava', translationKey: 'Navbar.baBest' },
                     { to: '/BEST-international', translationKey: 'Navbar.intBest' },
-                    { to: '/board', translationKey: 'Navbar.board' },
+                    // { to: '/board', translationKey: 'Navbar.board' },
                     { to: '/join-us', translationKey: 'Navbar.joinUs' }
                 ]"></dropdown>
 
@@ -58,7 +58,7 @@ import Button from "primevue/button";
                 // { to: '/partners', translationKey: 'Navbar.partners' },
                 { to: '/BEST-Bratislava', translationKey: 'Navbar.baBest' },
                 { to: '/BEST-international', translationKey: 'Navbar.intBest' },
-                { to: '/board', translationKey: 'Navbar.board' },
+                // { to: '/board', translationKey: 'Navbar.board' },
                 { to: '/join-us', translationKey: 'Navbar.joinUs' }
             ]"></dropdown>
             <Button icon="pi pi-globe text-secondary" outlined @click="changeLocale()" />

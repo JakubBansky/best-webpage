@@ -14,13 +14,12 @@ const carouselData = computed(() => [
 <template>
     <div class="">
         <h1 class="text-3xl text-center text-primary font-bold m-5">
-            {{ t("International.international") }}
+            What is BEST?
         </h1>
         <!-- About best -->
-        <section class="flex max-md:flex-col max-md:items-center">
+        <section class="flex justify-center max-md:flex-col max-md:items-center">
             <div class="w-8/12 max-md:w-11/12">
-                <h1>O BEST-e</h1>
-                <p>
+                <p class="pt-8">
                     Lorem ipsum odor amet, consectetuer adipiscing elit. Cras fusce dolor sed erat aliquet nunc erat. Ut
                     conubia
                     senectus pretium consequat ad felis neque. Finibus taciti imperdiet consectetur at arcu senectus.
@@ -124,7 +123,7 @@ const carouselData = computed(() => [
             </div>
         </section>
         <a href="https://www.best.eu.org/index.jsp">
-            <h1 class="underline text-red-700">Learn more about BEST</h1>
+            <h1 class="underline text-primary">Learn more about BEST</h1>
         </a>
     </div>
 
