@@ -19,7 +19,7 @@
 				<h1 class="text-5xl font-bold m-4 text-secondary">Board 2025</h1>
 				<img
 					src="../assets/groupPhoto.jpg"
-					class="w-8/12 max-md:w-11/12 mb-10 rounded-sm shadow-lg"
+					class="w-8/12 max-md:w-11/12 mb-10 rounded-sm shadow-lg h-[25rem]"
 					alt="Picture of our board" />
 
 				<div class="text-center w-11/12 my-8 relative">

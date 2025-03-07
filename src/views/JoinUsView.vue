@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-	<div>
+	<section class="flex justify-center items-center flex-col p-8 bg-secondary text-primary">
 		<h1 class="text-primary">Do you want to join us?</h1>
 		<p class="text-primary m-3">
 			Are you looking for hands-on experience, meaningful connections, and the chance to develop valuable skills?
@@ -11,12 +11,12 @@
 			toward a brighter, more connected future! <br />
 			<b> Usually we have recruitment in the beginning of the semester, but if you are interested to join, don't hesitate to fill out the form below. We can't wait to meet you! </b>
 		</p>
-	</div>
-	<section class="flex justify-center items-center flex-col p-8 bg-secondary">
+	</section>
+	<section class="flex justify-center items-center flex-col bg-secondary rounded-xl shadow-md p-4">
 		<iframe
 			src="https://docs.google.com/forms/d/e/1FAIpQLScxUVZg3fpylj0fDQZOBRTq8xs83VUmrf_IRtAheh4fVoOTPw/viewform?embedded=true"
 			width="640"
-			height="676"
+			height="800"
 			frameborder="0"
 			marginheight="0"
 			marginwidth="0"
