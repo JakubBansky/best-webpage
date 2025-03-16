@@ -37,8 +37,8 @@
 						position="President"
 						mail="k.k@best.com" />
 					<BoardMember
-						:image="simonImage"
-						name="Šimon Koreň"
+						:image="favicon"
+						name="Marek Holub"
 						position="Secretary"
 						mail="k.k@best.com" />
 				</div>
@@ -49,13 +49,13 @@
 						position="VP4CR"
 						mail="k.k@best.com" />
 					<BoardMember
-						:image="sofiaImage"
-						name="Sofia Dobranská"
-						position="VP4HR"
+						:image="favicon"
+						name="Valeria Levchuk"
+						position="VP4PR"
 						mail="k.k@best.com" />
 					<BoardMember
 						:image="favicon"
-						name="Alexandra Rybianska"
+						name="Dominik Hrdina"
 						position="VP4PR"
 						mail="k.k@best.com" />
 				</div>
