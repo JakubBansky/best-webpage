@@ -1,69 +1,70 @@
 <script setup>
-	import { defineProps, computed } from "vue";
-	import Carousel from "primevue/carousel";
-	import { t } from "@/i18n";
+import { computed } from "vue";
+import Carousel from "primevue/carousel";
+import { t } from "@/i18n";
 
-	defineProps({
-		title: {
-			type: String,
-			required: true,
-		},
-		date: {
-			type: String,
-			required: true,
-		},
-		description: {
-			type: String,
-			required: true,
-		},
-		mainPhoto: {
-			type: String,
-			default: "",
-		},
-		photos: {
-			type: Array,
-			default: () => [], // Default to an empty array
-		},
-	});
+const { title, description, photos, position } = defineProps({
+  title: String,
+  description: String,
+  photos: {
+    type: Array,
+    default: () => [],
+  },
+  position: {
+    type: String,
+    default: "left", 
+  },
+});
+
+const layoutDirection = computed(() =>
+  position === "left" ? "flex-row" : "flex-row-reverse"
+);
+
+const containerClass = computed(() =>
+  position === "right"
+    ? "bg-secondary text-primary"
+    : "bg-primary text-white"
+);
+
+const responsiveOptions = [
+  {
+    breakpoint: "1400px",
+    numVisible: 1,
+    numScroll: 1,
+  },
+];
 </script>
 
 <template>
-	<div class="bg-secondary mb-24 flex items-center flex-col">
-		<!-- Image with fallback handling -->
+  <div class="mb-24 flex flex-col items-center" :class="containerClass">
+    <div class="w-11/12 flex items-center justify-center" :class="layoutDirection">
+      <!-- Text Section -->
+      <div class="w-1/2 p-6">
+        <h2 class="text-3xl font-semibold mb-4">{{ title }}</h2>
+        <p class="leading-7 text-lg">{{ description }}</p>
+      </div>
 
-		<div class="w-11/12 block">
-			<div class="flex justify-between items-start m-2">
-				<h2 class="text-primary font-semibold m-0">{{ title }}</h2>
-				<p>{{ date }}</p>
-			</div>
-			<p class="m-2 leading-7">{{ description }}</p>
-		</div>
-
-		<!-- Show carousel only if photos are provided -->
-		<Carousel
-			v-if="photos.length"
-			:value="photos"
-			:numVisible="2"
-			:numScroll="1"
-			orientation="horizontal"
-			circular
-			:autoplayInterval="4000"
-			:responsiveOptions="responsiveOptions"
-			class="w-9/12">
-			
-			<template #item="slotProps">
-				<img
-					:src="slotProps.data"
-					alt="Gallery Image"
-					class="object-cover w-11/12 h-full"
-					@click="displayCarousel()"/>
-			</template>
-		</Carousel>
-
-		<img
-			v-if="!photos.length && mainPhoto"
-			:src="mainPhoto"
-			alt="Event Image"
-			class="object-cover w-6/12" />
-	</div>
+      <!-- Carousel Section -->
+      <div class="w-1/2 ">
+        <Carousel
+          v-if="photos.length"
+          :value="photos"
+          :numVisible="1"
+          :numScroll="1"
+          orientation="horizontal"
+          circular
+          :autoplayInterval="4000"
+          :responsiveOptions="responsiveOptions"
+        >
+          <template #item="slotProps">
+            <img
+              :src="slotProps.data"
+              alt="Gallery Image"
+              class="object-cover w-full h-96 rounded-xl shadow-lg border-primaryLight border-8"
+            />
+          </template>
+        </Carousel>
+      </div>
+    </div>
+  </div>
 </template>

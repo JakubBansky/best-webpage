@@ -12,6 +12,7 @@ module.exports = {
       },
       colors: {
         primary: '#160c32',        // Primary blue
+        primaryLight: '#2a1d56',  // Light blue
         secondary: '#d0d7d6',      // Secondary gray
         textPrimary: '#212529',    // Dark text color
         textSecondary: '#6c757d',  // Muted gray text color

@@ -22,8 +22,8 @@
 </script>
 
 <template>
-<!-- working carousel  template-->
-<!-- <section class="flex w-6/12 justify-center items-center flex-col p-4">
+	<!-- working carousel  template-->
+	<!-- <section class="flex w-6/12 justify-center items-center flex-col p-4">
 		<Carousel
 			:value="photos"
 			:numVisible="1"
@@ -42,10 +42,6 @@
 		</Carousel>
 	</section> -->
 
-
-
-
-
 	<!-- picture -->
 	<section class="bg flex text-center items-center flex-col relative bg-cover bg-right h-[35rem]">
 		<div class="bg-black bg-opacity-60 h-full w-full flex flex-col items-center justify-center">
@@ -57,16 +53,18 @@
 	</section>
 
 	<!-- who we are -->
-	<section class="flex justify-center items-center flex-col p-8 bg-secondary">
-		<div class="w-10/12">
+	<section class=" flex justify-center items-center p-8 bg-secondary">
+		<div class="w-6/12">
 			<h3>
 				{{ t("Home.whoWeAre") }}
 			</h3>
 			{{ t("Home.textWhoWeAre") }}
 		</div>
+		<img
+		class="w-4/12 object-cover  mt-5 rounded-lg shadow-lg border-primaryLight border-8"
+			src="/images/chemDay.jpg"
+			alt="group photo" />
 	</section>
-
-	
 
 	<!-- values -->
 	<section class="bg-primary flex flex-col p-5 items-center">
