@@ -1,49 +1,59 @@
 {
-	"Navbar": {
-		"home": "Domov",
-		"about-us": "O nás",
-		"events": "Eventy",
-		"partners": "Partnery",
-		"intBest": "BEST International",
-		"baBest": "BEST Bratislava",
-		"board": "Rada",
-		"joinUs": "Pridaj sa k nám!"
-	},
-	"Home": {
-		"whoWeAre": "Kto sme?",
-		"textWhoWeAre": "BEST Bratislava je študentská nezisková organizácia pôsobiacia na Slovenskej technickej univerzite v Bratislave. BEST Bratislava je jedna z 84 lokálnych BEST skupín pôsobiacich v 30 krajinách Európy. Medzi naše hlavné aktivity patrí organizovanie softskill tréningov - Tréning day, organizovanie technických súťaží EBEC a organizovanie letného kurzu pre študentov technických škôl z celej Európy. Vznikli sme pred 33 rokmi a odvtedy prinášame všetkým študentom STU doplnkové vzdelanie.",
-		"whatOffer": "Čo ponúkame?",
-		"whatOfferText": "BEST usiluje o to, aby sa európski študenti technických odborov stali medzinárodne orientovanými, dosiahli lepšie porozumenie európskym kultúram a vyvinuli schopnosti pracovať na medzinárodnej úrovni. Preto vytvárame príležitosti pre študentov, aby sa stretli a učili sa navzájom prostredníctvom našich akademických a neakademických podujatí a vzdelávacích sympózií. 'Učenie robí majstra', ale konečným cieľom je dobré zamestnanie, preto ponúkame služby ako medzinárodné kariérne centrum na rozšírenie obzorov na trhu práce. Našou prioritou je ponúkať kvalitné služby pre študentov po celej Európe. Tak sa nám darí približovať všetkých partnerov v trojuholníku 'študent - spoločnosť - univerzita' bližšie."
-	},
-	"Identity": {
-		"identity": "Identita BEST-u",
-		"vision": "Vízia - Posilnená rozmanitosť",
-		"mision": "Poslanie - Rozvoj študentov",
-		"visionText": "Ľudia rozumejú a rešpektujú rôzne kultúry a spoločnosti. Prostredie posilnenej rozmanitosti podporuje ľudí v aplikovaní ich plného potenciálu a zodpovednom konaní.",
-		"misionText": "BEST pomáha študentom dosiahnuť medzinárodné myslenie, lepšie porozumieť kultúram a spoločnostiam a rozvíjať schopnosť pracovať v kultúrne rozmanitých prostrediach."
-	},
-	"Values": {
-		"fun": "zábava",
-		"openMindness": "otvorenosť",
-		"friendship": "priateľstvo",
-		"improvement": "zlepšovanie",
-		"flexibility": "flexibilita"
-	},
-	"Bratislava": {
-		"workingGroups": "Naše pracovné skupiny:",
-		"pr": "PR - vzťahy s verejnosťou",
-		"cr": "CR - vzťahy s firmami",
-		"hr": "HR - ľudské zdroje",
-		"textPr": "Tím PR formuje imidž organizácie a oslovuje verejnosť. Spravuje sociálne médiá, vytvára propagačné materiály a angažuje sa v komunikácii s publikom, aby udržal všetkých informovaných a nadšených z našich podujatí a iniciatív. Ich cieľom je komunikovať naše hodnoty a aktivity širšej verejnosti.",
-		"textCr": "Tím CR sa špecializuje na budovanie spojení s firmami a odborníkmi z praxe. Pracujú na zabezpečení partnerstiev, sponzorstiev a spoluprác, ktoré sú prínosné pre organizáciu aj jej členov. Tým, že budujú silné vzťahy s firmami, tím CR pomáha vytvárať kariérne podujatia, stáže a príležitosti na networking, čím premostujú študentov s profesionálnym svetom.",
-		"textHr": "Tím HR sa stará o pohodu členov a vnútornú organizáciu. Pracujú na nábore, organizujú teambuildingové podujatia a riešia akékoľvek problémy členov. Zameriavajú sa na vytvorenie podporujúceho prostredia, kde sa každý člen tímu cíti cenený a angažovaný."
-	},
-	"International": {
-		"international":"Medzinárodný BEST",
-		"localGroups": "miestnych skupín",
-		"volunteers": "dobrovoľníkov",
-		"countries": "krajín",
-		"moreThan": "viac ako",
-		"inNumbers":"BEST v číslach"
-	}
+  "Navbar": {
+    "home": "Domov",
+    "about-us": "O nás",
+    "events": "Eventy",
+    "partners": "Partnery",
+    "intBest": "BEST International",
+    "baBest": "BEST Bratislava",
+    "board": "Rada",
+    "joinUs": "Pridaj sa k nám!"
+  },
+  "Home": {
+    "whoWeAre": "Kto sme?",
+    "textWhoWeAre": "BEST Bratislava je študentská nezisková organizácia pôsobiacia na Slovenskej technickej univerzite v Bratislave. BEST Bratislava je jedna z 84 lokálnych BEST skupín pôsobiacich v 30 krajinách Európy. Medzi naše hlavné aktivity patrí organizovanie softskill tréningov - Tréning day, organizovanie technických súťaží EBEC a organizovanie letného kurzu pre študentov technických škôl z celej Európy. Vznikli sme pred 33 rokmi a odvtedy prinášame všetkým študentom STU doplnkové vzdelanie.",
+    "whatOffer": "Čo ponúkame?",
+    "whatOfferText": "BEST usiluje o to, aby sa európski študenti technických odborov stali medzinárodne orientovanými, dosiahli lepšie porozumenie európskym kultúram a vyvinuli schopnosti pracovať na medzinárodnej úrovni. Preto vytvárame príležitosti pre študentov, aby sa stretli a učili sa navzájom prostredníctvom našich akademických a neakademických podujatí a vzdelávacích sympózií. 'Učenie robí majstra', ale konečným cieľom je dobré zamestnanie, preto ponúkame služby ako medzinárodné kariérne centrum na rozšírenie obzorov na trhu práce. Našou prioritou je ponúkať kvalitné služby pre študentov po celej Európe. Tak sa nám darí približovať všetkých partnerov v trojuholníku 'študent - spoločnosť - univerzita' bližšie."
+  },
+  "Identity": {
+    "identity": "Identita BEST-u",
+    "vision": "Vízia - Posilnená rozmanitosť",
+    "mision": "Poslanie - Rozvoj študentov",
+    "visionText": "Ľudia rozumejú a rešpektujú rôzne kultúry a spoločnosti. Prostredie posilnenej rozmanitosti podporuje ľudí v aplikovaní ich plného potenciálu a zodpovednom konaní.",
+    "misionText": "BEST pomáha študentom dosiahnuť medzinárodné myslenie, lepšie porozumieť kultúram a spoločnostiam a rozvíjať schopnosť pracovať v kultúrne rozmanitých prostrediach."
+  },
+  "Values": {
+    "fun": "zábava",
+    "openMindness": "otvorenosť",
+    "friendship": "priateľstvo",
+    "improvement": "zlepšovanie",
+    "flexibility": "flexibilita"
+  },
+  "Bratislava": {
+    "workingGroups": "Naše pracovné skupiny:",
+    "pr": "PR - vzťahy s verejnosťou",
+    "cr": "CR - vzťahy s firmami",
+    "hr": "HR - ľudské zdroje",
+    "textPr": "Tím PR formuje imidž organizácie a oslovuje verejnosť. Spravuje sociálne médiá, vytvára propagačné materiály a angažuje sa v komunikácii s publikom, aby udržal všetkých informovaných a nadšených z našich podujatí a iniciatív. Ich cieľom je komunikovať naše hodnoty a aktivity širšej verejnosti.",
+    "textCr": "Tím CR sa špecializuje na budovanie spojení s firmami a odborníkmi z praxe. Pracujú na zabezpečení partnerstiev, sponzorstiev a spoluprác, ktoré sú prínosné pre organizáciu aj jej členov. Tým, že budujú silné vzťahy s firmami, tím CR pomáha vytvárať kariérne podujatia, stáže a príležitosti na networking, čím premostujú študentov s profesionálnym svetom.",
+    "textHr": "Tím HR sa stará o pohodu členov a vnútornú organizáciu. Pracujú na nábore, organizujú teambuildingové podujatia a riešia akékoľvek problémy členov. Zameriavajú sa na vytvorenie podporujúceho prostredia, kde sa každý člen tímu cíti cenený a angažovaný."
+  },
+  "International": {
+    "international": "Medzinárodný BEST",
+	"intro": "Založená v roku 1989, sme neustále rastúca nezisková a apolitická organizácia. Naším cieľom je ponúknuť študentom príležitosti na rozvoj nových zručností, ako aj objavovať rôzne kultúry, miesta a spojiť sa s ostatnými študentmi po celej Európe.",
+    "localGroups": "Miestne BEST skupiny - LBG",
+	"localGroupsText":"BEST sa skladá z 84 miestnych skupín (LBGs) po celej Európe. Každá univerzita má svoju vlastnú skupinu, ktorá organizuje a propaguje rôzne podujatia a aktivity pre študentov. Okrem toho, že organizujeme skvelé akcie, ako job faires alebo prezentácie firiem, musíme aj zbierať financie na tieto projekty, pretože väčšina akcií je zadarmo. Aj keď je to náročné, získavame veľa cenných skúseností, učíme sa o iných kultúrach, nadväzujeme priateľstvá po celej Európe a užívame si to!",
+    "volunteers": "dobrovoľníkov",
+    "countries": "krajín",
+    "moreThan": "viac ako",
+    "inNumbers": "BEST v číslach",
+	"learnMore": "Zisti viac o medzinárodnom BESTe"
+  },
+  "Event": {
+    "info": "Ako študentská organizácia organizujeme rôzne podujatia, ktoré pomáhajú študentom rozvíjať sa. Každým z týchto podujatí sa snažíme spojiť študentov, univerzity a firmy. Okrem vonkajších akcií máme aj množstvo interných eventov, ktoré sú super príležitosťou na zlepšenie zručností, nadväzovanie nových priateľstiev a budovanie silných vzťahov medzi našimi členmi. Je to skvelý spôsob, ako rásť osobne aj profesionálne v rámci našej komunity.",
+    "course": "BEST organizuje podujatia, kde si študenti technických odborov môžu rozšíriť svoje vedomosti a získať nové zručnosti. BEST kurzy ponúkajú workshopy v oblastiach ako technológie, kariérne zručnosti a aplikované inžinierstvo. Naučíš sa od odborníkov, navštíviš firmy a dokonca môžeš získať ECTS kredity. Existujú tri typy BEST kurzov: jeden zameraný na technické vedomosti, druhý na kariérne zručnosti ako komunikácia a riadenie projektov a tretí, kde riešiš reálne inžinierske problémy v tímoch. Je to skvelý spôsob, ako sa učiť, zabávať a budovať medzinárodné kontakty!",
+    "skillItAll": "Skill It All je jednodňové podujatie, ktoré sa koná v Bratislave, kde si môžeš vyskúšať rôzne workshopy na zlepšenie svojich soft skills - ako lepšie prezentovať, zvládať stres alebo komunikovať v tíme. Je to uvoľnené, zábavné a zároveň užitočné. Stretnete veľa nových ľudí, naučíš sa niečo praktické a ešte aj získaš certifikát. Je to ideálny spôsob, ako stráviť deň trochu inak než len v škole.",
+    "recruitment": "Okrem našich workshopov a podujatí počas roka zvyčajne organizujeme nábor nových členov dvakrát ročne. Ak máš chuť skúsiť niečo nové, spoznať množstvo úžasných ľudí, zlepšiť svoje zručnosti a zažiť tie najlepšie momenty (doslova), sleduj naše sociálne siete a neváhaj sa pridať! Možno práve ty budeš ten, kto s nami vytvorí skvelé veci.",
+    "motivationWeekend": "Motivačný víkend je víkendová akcia, kde si členovia môžu odpočinúť, spoznať sa lepšie a zúčastniť sa rôznych teambuildingových aktivít. Je to skvelá príležitosť na zlepšenie spolupráce, rozvoj tímového ducha a osobných zručností, a zároveň si užiť zábavu mimo bežného pracovného prostredia."
+  }
 }

@@ -1,8 +1,6 @@
 <script setup>
 	import BoardMember from "../components/BoardMember.vue";
 	import kikoImage from "@/assets/kiko.png";
-	import simonImage from "@/assets/simon.jpg";
-	import sofiaImage from "@/assets/sofia.jpg";
 	import favicon from "@/assets/bratislava_logo.png";
 	import { t } from "@/i18n";
 </script>
@@ -30,7 +28,6 @@
 				</div>
 
 				<div class="grid grid-cols-1 md:grid-cols-2 gap-10">
-					<!-- <img src="@/public/andrej.jpg" alt=""> -->
 					<BoardMember
 						:image="kikoImage"
 						name="Kristian Kapec"

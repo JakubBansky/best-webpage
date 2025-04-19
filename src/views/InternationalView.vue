@@ -14,23 +14,20 @@ const carouselData = computed(() => [
 <template>
     <div class="">
         <h1 class="text-3xl text-center text-primary font-bold m-5">
-            What is BEST?
+            <b>B</b>oard of <b>E</b>uropean <b>S</b>tudents of <b>T</b>echnology
         </h1>
-        <!-- About best -->
+        
         <section class="flex justify-center max-md:flex-col max-md:items-center">
             <div class="w-8/12 max-md:w-11/12">
                 <p class="pt-8">
-                    Lorem ipsum odor amet, consectetuer adipiscing elit. Cras fusce dolor sed erat aliquet nunc erat. Ut
-                    conubia
-                    senectus pretium consequat ad felis neque. Finibus taciti imperdiet consectetur at arcu senectus.
-                    Quam
-                    faucibus proin magna dignissim penatibus, laoreet augue. Aliquet molestie odio tortor lorem, justo
-                    montes
-                    tortor sociosqu? Risus elit bibendum; tempus risus nec aliquam mauris porta.
+                    {{ t("International.intro") }}
                 </p>
+                <a href="https://www.best.eu.org/index.jsp">
+            <h1 class="underline text-primary">{{ t("International.learnMore") }}</h1>
+        </a>
             </div>
             <div class="w-3/12 flex justify-center items-center ">
-                <img src="/favicon.png" alt="logo of best" class="max-w-60 w-11/12 max-sm:w-20 ">
+                <img src="/favicon.png" alt="logo of best" class="max-w-60 w-6/12 max-sm:w-20 ">
             </div>
         </section>
 
@@ -72,59 +69,49 @@ const carouselData = computed(() => [
 
 
         <!-- Identity of best -->
-        <section class="bg-primary">
-            <h1 class="text-center text-2xl font-semibold m-5 ">{{ t("Identity.identity") }}</h1>
+        <section class="bg-secondary">
+            <h1 class="text-center text-2xl font-semibold m-5 text-primary ">{{ t("Identity.identity") }}</h1>
             <div class="flex max-sm:flex-col items-center">
-                <Identity class="" icon="pi-bullseye" :header="t('Identity.vision')" :text="t('Identity.visionText')"
+                <Identity class="" icon="pi-bullseye" :header="t('Identity.vision')" :text="t('Identity.visionText')" dark=true
                     </Identity>
-                    <Identity class="" icon="pi-check" :header="t('Identity.mision')" :text="t('Identity.misionText')"
+                    <Identity class="" icon="pi-check" :header="t('Identity.mision')" :text="t('Identity.misionText')" dark="true">
                         </Identity>
             </div>
 
         </section>
 
         <!-- Best spirit -->
-        <section>
-            <h1 class="text-center text-2xl font-semibold m-5">BEST spirit</h1>
+        <section class="bg-primary p-2">
+            <h1 class="text-center text-2xl font-semibold m-5 ">BEST spirit</h1>
             <div class="flex max-md:flex-col items-center">
-                <Identity class="" icon="pi-face-smile" :header="t('Values.fun')" text="" dark="true">
+                <Identity class="" icon="pi-face-smile" :header="t('Values.fun')" text="">
                 </Identity>
-                <Identity class="" icon="pi-arrows-alt" :header="t('Values.openMindness')" text="" dark="true">
+                <Identity class="" icon="pi-arrows-alt" :header="t('Values.openMindness')" text="">
                 </Identity>
-                <Identity class="" icon="pi-user-plus" :header="t('Values.friendship')" text="" dark="true">
+                <Identity class="" icon="pi-user-plus" :header="t('Values.friendship')" text="" >
                 </Identity>
-                <Identity class="" icon="pi-check-circle" :header="t('Values.improvement')" text="" dark="true">
+                <Identity class="" icon="pi-check-circle" :header="t('Values.improvement')" text="">
                 </Identity>
-                <Identity class="" icon="pi-comments" :header="t('Values.flexibility')" text="" dark="true">
+                <Identity class="" icon="pi-comments" :header="t('Values.flexibility')" text="" >
                 </Identity>
             </div>
         </section>
         <!-- LBG's -->
 
         <section class="flex justify-center items-center max-md:flex-col max-md:items-center">
-            <div class="w-5/12 max-md:w-11/12">
-                <h1>Local BEST group - LBG</h1>
+            <div class="w-8/12 max-md:w-11/12">
+                <h1 class="text-primary"> {{ t("International.localGroups") }}</h1>
                 <p>
-                    Lorem ipsum odor amet, consectetuer adipiscing elit. Cras fusce dolor sed erat aliquet nunc
-                    erat. Ut
-                    conubia
-                    senectus pretium consequat ad felis neque. Finibus taciti imperdiet consectetur at arcu
-                    senectus.
-                    Quam
-                    faucibus proin magna dignissim penatibus, laoreet augue. Aliquet molestie odio tortor lorem,
-                    justo
-                    montes
-                    tortor sociosqu? Risus elit bibendum; tempus risus nec aliquam mauris porta.
+                   
+                    {{ t("International.localGroupsText") }}
                 </p>
             </div>
-            <div class="w-6/12 flex justify-center items-center ">
+            <div class="w-3/12 flex justify-center items-center ">
                 <img src="../assets/lbgs.png" alt="logo of best"
-                    class="min-w-60 max-w-80 max-sm:w-20 bg-primary rounded-sm m-2">
+                    class="w-96 min-w-60 max-w-96 max-sm:w-20  rounded-sm m-2">
             </div>
         </section>
-        <a href="https://www.best.eu.org/index.jsp">
-            <h1 class="underline text-primary">Learn more about BEST</h1>
-        </a>
+        
     </div>
 
 </template>

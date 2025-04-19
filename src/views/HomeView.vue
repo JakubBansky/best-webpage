@@ -53,15 +53,15 @@
 	</section>
 
 	<!-- who we are -->
-	<section class=" flex justify-center items-center p-8 bg-secondary">
-		<div class="w-6/12">
+	<section class=" flex justify-center items-center p-8 bg-secondary max-md:flex-col ">
+		<div class="w-6/12 max-md:w-10/12 max-md:text-center">
 			<h3>
 				{{ t("Home.whoWeAre") }}
 			</h3>
 			{{ t("Home.textWhoWeAre") }}
 		</div>
 		<img
-		class="w-4/12 object-cover  mt-5 rounded-lg shadow-lg border-primaryLight border-8"
+		class="w-4/12 object-cover  mt-5 rounded-lg shadow-lg border-primaryLight border-8 max-md:w-10/12"
 			src="/images/chemDay.jpg"
 			alt="group photo" />
 	</section>
@@ -94,7 +94,7 @@
 	</section>
 
 	<section class="flex justify-center items-center flex-col p-8 bg-secondary text-primary">
-		<div class="w-10/12">
+		<div class="w-10/12 max-md:text-center">
 			<h3 class="text-primary">
 				{{ t("Home.whatOffer") }}
 			</h3>

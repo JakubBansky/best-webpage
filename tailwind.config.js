@@ -13,7 +13,10 @@ module.exports = {
       colors: {
         primary: '#160c32',        // Primary blue
         primaryLight: '#2a1d56',  // Light blue
+        primaryDark: '#0f0e1c',   // Dark blue
         secondary: '#d0d7d6',      // Secondary gray
+        secondaryLight: '#f8f9fa', // Light gray
+        secondaryDark: '#343a40', // Dark gray
         textPrimary: '#212529',    // Dark text color
         textSecondary: '#6c757d',  // Muted gray text color
       },

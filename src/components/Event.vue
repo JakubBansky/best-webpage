@@ -23,7 +23,7 @@ const layoutDirection = computed(() =>
 const containerClass = computed(() =>
   position === "right"
     ? "bg-secondary text-primary"
-    : "bg-primary text-white"
+    : "bg-primary text-secondary"
 );
 
 const responsiveOptions = [
@@ -37,15 +37,15 @@ const responsiveOptions = [
 
 <template>
   <div class="mb-24 flex flex-col items-center" :class="containerClass">
-    <div class="w-11/12 flex items-center justify-center" :class="layoutDirection">
+    <div class="w-11/12 flex items-center justify-center max-md:flex-col" :class="layoutDirection">
       <!-- Text Section -->
-      <div class="w-1/2 p-6">
-        <h2 class="text-3xl font-semibold mb-4">{{ title }}</h2>
+      <div class="w-1/2 p-6 max-md:w-10/12">
+        <h2 class="text-3xl font-semibold mb-4" :class="containerClass">{{ title }}</h2>
         <p class="leading-7 text-lg">{{ description }}</p>
       </div>
 
       <!-- Carousel Section -->
-      <div class="w-1/2 ">
+      <div class="w-1/2 max-md:w-10/12">
         <Carousel
           v-if="photos.length"
           :value="photos"

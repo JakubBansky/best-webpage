@@ -1,56 +1,59 @@
 {
-	"Navbar": {
-		"home": "Home",
-		"about-us": "About us",
-		"events": "Events",
-		"partners": "Partners",
-		"intBest": "BEST International",
-		"baBest": "BEST Bratislava",
-		"board": "Board",
-		"joinUs": "Join us!"
-	},
-	"Home": {
-		"whoWeAre": "Who are we?",
-		"textWhoWeAre": "BEST Bratislava is a student non-profit organization operating at the Slovak Technical University in Bratislava. BEST Bratislava is one of 84 local BEST groups operating in 30 European countries. Our main activities include organizing softskill trainings - Training day, organizing technical competitions EBEC and organizing a summer course for technical school students from all over Europe. We were founded 33 years ago and have been providing supplementary education to all STU students ever since.",
-		"whatOffer": "What do we offer?",
-		"whatOfferText": "BEST strives to help European students of technology to become more internationally minded, by reaching a better understanding of European cultures and developing capacities to work on an international basis. Therefore we create opportunities for the students to meet and learn from one another through our academic and non-academic events and educational symposia. 'Learning makes the master', but the final goal is a good working place, therefore we offer services like an international career centre to broaden the horizons for the choice on the job market. Our priority is to offer high quality services for students all over Europe. Thus, we manage to bring all the partners in the 'student - company - university' triangle closer."
-	},
-	"Identity": {
-		"identity": "Identity of BEST",
-		"vision": "Vision - Empowered Diversity",
-		"mision": "Mission - Developing Students",
-		"visionText": "People understand and respect different cultures and societies. The environment of empowered diversity supports people in applying their full potential and acting responsibly.",
-		"misionText": "BEST helps students to achieve an international mindset, to reach a better understanding of cultures and societies and to develop the capacity to work in culturally diverse environments."
-	},
-	"Values": {
-		"fun": "fun",
-		"openMindness": "open-mindness",
-		"friendship": "friendship",
-		"improvement": "improvement",
-		"flexibility": "flexibility"
-	},
-	"Bratislava": {
-		"workingGroups": "Our working groups:",
-		"pr": "PR - press relations",
-		"cr": "CR - companies relations",
-		"hr": "HR - human resources",
-		"textPr": "The PR team shapes the organization's image and reaches out to the public. They handle social media, create promotional materials, and engage with audiences to keep everyone informed and excited about our events and initiatives. Their goal is to communicate our values and activities to the wider community.",
-		"textCr": "The CR team specializes in building connections with companies and industry professionals. They work to secure partnerships, sponsorships, and collaborative opportunities that benefit both the organization and its members. By establishing strong relationships with companies, the CR team helps create career-oriented events, internships, and networking opportunities, bridging the gap between students and the professional world.",
-		"textHr": "The HR team manages member well-being and internal organization. They work on recruitment, organize team-building events, and address any member concerns. Their focus is on fostering a supportive environment, ensuring that every team member feels valued and engaged."
-	},
-	"International": {
-		"international": "International BEST",
-		"localGroups": "local groups",
-		"volunteers": "volunteers",
-		"countries": "countries",
-		"moreThan": "more than",
-		"inNumbers": "BEST in numbers"
-	},
-	"Event": {
-		"info": "As a student organisation, we organise numerous events focused on developing students. With every event we organise, we strive to fulfill our goal of connecting students, universities, and companies.",
-		"recruitment": "Recruitment",
-		"skillItAll": "Skill it all",
-		"course": "Course",
-		"internalEvents": "Internal events"
-	}
+  "Navbar": {
+    "home": "Home",
+    "about-us": "About us",
+    "events": "Events",
+    "partners": "Partners",
+    "intBest": "BEST International",
+    "baBest": "BEST Bratislava",
+    "board": "Board",
+    "joinUs": "Join us!"
+  },
+  "Home": {
+    "whoWeAre": "Who are we?",
+    "textWhoWeAre": "BEST Bratislava is a student non-profit organization operating at the Slovak Technical University in Bratislava. BEST Bratislava is one of 84 local BEST groups operating in 30 European countries. Our main activities include organizing softskill trainings - Training day, organizing technical competitions EBEC and organizing a summer course for technical school students from all over Europe. We were founded 33 years ago and have been providing supplementary education to all STU students ever since.",
+    "whatOffer": "What do we offer?",
+    "whatOfferText": "BEST strives to help European students of technology to become more internationally minded, by reaching a better understanding of European cultures and developing capacities to work on an international basis. Therefore we create opportunities for the students to meet and learn from one another through our academic and non-academic events and educational symposia. 'Learning makes the master', but the final goal is a good working place, therefore we offer services like an international career centre to broaden the horizons for the choice on the job market. Our priority is to offer high quality services for students all over Europe. Thus, we manage to bring all the partners in the 'student - company - university' triangle closer."
+  },
+  "Identity": {
+    "identity": "Identity of BEST",
+    "vision": "Vision - Empowered Diversity",
+    "mision": "Mission - Developing Students",
+    "visionText": "People understand and respect different cultures and societies. The environment of empowered diversity supports people in applying their full potential and acting responsibly.",
+    "misionText": "BEST helps students to achieve an international mindset, to reach a better understanding of cultures and societies and to develop the capacity to work in culturally diverse environments."
+  },
+  "Values": {
+    "fun": "fun",
+    "openMindness": "open-mindness",
+    "friendship": "friendship",
+    "improvement": "improvement",
+    "flexibility": "flexibility"
+  },
+  "Bratislava": {
+    "workingGroups": "Our working groups:",
+    "pr": "PR - press relations",
+    "cr": "CR - companies relations",
+    "hr": "HR - human resources",
+    "textPr": "The PR team shapes the organization's image and reaches out to the public. They handle social media, create promotional materials, and engage with audiences to keep everyone informed and excited about our events and initiatives. Their goal is to communicate our values and activities to the wider community.",
+    "textCr": "The CR team specializes in building connections with companies and industry professionals. They work to secure partnerships, sponsorships, and collaborative opportunities that benefit both the organization and its members. By establishing strong relationships with companies, the CR team helps create career-oriented events, internships, and networking opportunities, bridging the gap between students and the professional world.",
+    "textHr": "The HR team manages member well-being and internal organization. They work on recruitment, organize team-building events, and address any member concerns. Their focus is on fostering a supportive environment, ensuring that every team member feels valued and engaged."
+  },
+  "International": {
+    "international": "International BEST",
+    "intro":"Founded in 1989, we are a constantly growing, non-profit, and non-political organization. Our goal is to give students opportunities to develop new skills, as well as to discover different cultures, places, and connect with other students across Europe.",
+    "localGroups": "Local BEST groups - LBGs",
+    "localGroupsText":" BEST is made up of 84 Local BEST Groups (LBGs) across Europe. Each university has its own group that organizes events and activities for students. Besides organizing awesome events like job fairs or company presentations, we also fundraise to cover costs since most events are free. It's a lot of work, but we gain valuable experience, learn about different cultures, make friends across Europe, and have fun!",
+    "volunteers": "volunteers",
+    "countries": "countries",
+    "moreThan": "more than",
+    "inNumbers": "BEST in numbers",
+    "learnMore": "Learn more about BEST International"
+  },
+  "Event": {
+    "info": "As a student organization, we organize various events that help students grow. With every event, we aim to connect students, universities, and companies. In addition to our external events, we also have lots of internal activities that are great for improving skills, making new friends, and building strong connections among our members. It's an awesome way to grow both personally and professionally within our community.",
+    "course": "BEST organizes events where tech students can expand their knowledge and gain new skills. BEST Courses offer workshops in areas like technology, career skills, and applied engineering. You'll learn from experts, visit companies, and even earn ECTS credits. There are three types of BEST Courses: one focused on tech knowledge, another on career skills like communication and project management, and a third where you solve real-world engineering problems in teams. It's a great way to learn, have fun, and build international connections!",
+    "skillItAll": "Skill It All is a one-day event held in Bratislava where you can try out various workshops to improve your soft skills - such as better presentation, stress management, or team communication. It's relaxed, fun, and at the same time, useful. You'll meet a lot of new people, learn something practical, and even get a certificate. It's the perfect way to spend a day a bit differently than just in school.",
+    "recruitment": "In addition to our workshops and events throughout the year, we usually organize recruitment for new members twice a year. If you're up for trying something new, meeting lots of amazing people, improving your skills, and experiencing the BEST moments (literally), keep an eye on our social media and don't hesitate to join us! You might be the next one to create great things with us.",
+    "motivationWeekend": "The Motivational Weekend is a weekend event where members can relax, get to know each other better, and take part in various teambuilding activities. It's a great opportunity to improve collaboration, develop team spirit and personal skills, and at the same time, enjoy some fun away from the usual work environment."
+  }
 }
