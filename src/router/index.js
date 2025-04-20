@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import PartnersView from '@/views/PartnersView.vue'
 import BoardView from '@/views/BoardView.vue'
@@ -8,7 +8,7 @@ import InternationalView from '@/views/InternationalView.vue'
 import JoinUsView from '@/views/JoinUsView.vue'
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHashHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: '/',

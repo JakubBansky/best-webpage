@@ -37,15 +37,15 @@ const responsiveOptions = [
 
 <template>
   <div class="mb-24 flex flex-col items-center" :class="containerClass">
-    <div class="w-11/12 flex items-center justify-center max-md:flex-col" :class="layoutDirection">
+    <div class="w-12/12 flex items-center justify-center max-md:flex-col" :class="layoutDirection">
       <!-- Text Section -->
-      <div class="w-1/2 p-6 max-md:w-10/12">
+      <div class="w-10/12 p-2 max-md:w-10/12">
         <h2 class="text-3xl font-semibold mb-4" :class="containerClass">{{ title }}</h2>
         <p class="leading-7 text-lg">{{ description }}</p>
       </div>
 
       <!-- Carousel Section -->
-      <div class="w-1/2 max-md:w-10/12">
+      <div class="w-1/2 max-md:w-full">
         <Carousel
           v-if="photos.length"
           :value="photos"
@@ -60,7 +60,7 @@ const responsiveOptions = [
             <img
               :src="slotProps.data"
               alt="Gallery Image"
-              class="object-cover w-full h-96 rounded-xl shadow-lg border-primaryLight border-8"
+              class="object-cover w-full h-96 max-md:h-60 rounded-xl shadow-lg border-primaryLight border-8"
             />
           </template>
         </Carousel>
