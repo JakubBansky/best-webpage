@@ -21,8 +21,7 @@ const carouselData = ref([
 }
 
 .card {
-  background-color: red;
-  /* Matches your desired background */
+ 
   padding: 2rem;
 }
 </style>
