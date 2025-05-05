@@ -23,4 +23,13 @@
 		@apply font-semibold;
 		@apply p-3;
 	}
+	.p-tooltip {
+		background-color: white !important; /* or use another color */
+		color: white !important;
+		border-radius: 4px;
+		padding: 4px 8px;
+		font-size: 0.875rem;
+		box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+	  }
+	  
 }

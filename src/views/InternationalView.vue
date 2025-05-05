@@ -16,20 +16,26 @@ const carouselData = computed(() => [
         <h1 class="text-3xl text-center text-primary font-bold m-5">
             <b>B</b>oard of <b>E</b>uropean <b>S</b>tudents of <b>T</b>echnology
         </h1>
-        
-        <section class="flex justify-center max-md:flex-col max-md:items-center">
-            <div class="w-8/12 max-md:w-11/12">
-                <p class="pt-8">
+
+        <section
+            class="flex justify-center max-md:flex-col max-md:items-center px-6 py-10  rounded-xl">
+            <!-- Text Content -->
+            <div class="w-full max-w-2xl text-center mb-8 max-md:mb-6">
+                <p class="text-lg leading-relaxed text-gray-800 pt-8">
                     {{ t("International.intro") }}
                 </p>
-                <a href="https://www.best.eu.org/index.jsp">
-            <h1 class="underline text-primary">{{ t("International.learnMore") }}</h1>
-        </a>
+                <a href="https://www.best.eu.org/index.jsp"
+                    class="inline-block text-xl font-semibold text-primary underline hover:text-blue-800 transition-colors">
+                    {{ t("International.learnMore") }}
+                </a>
             </div>
-            <div class="w-3/12 flex justify-center items-center ">
-                <img src="/favicon.png" alt="logo of best" class="max-w-60 w-6/12 max-sm:w-20 ">
+
+            <!-- Logo -->
+            <div class="w-full max-w-80 flex justify-center items-center">
+                <img src="/favicon.png" alt="logo of best" class="w-1/2 max-w-xs max-sm:w-24">
             </div>
         </section>
+
 
         <!-- best in numbers -->
         <section class="h-96 bg-primary bg  flex flex-col items-stretch justify-center">
@@ -71,11 +77,12 @@ const carouselData = computed(() => [
         <!-- Identity of best -->
         <section class="bg-secondary">
             <h1 class="text-center text-2xl font-semibold m-5 text-primary ">{{ t("Identity.identity") }}</h1>
-            <div class="flex max-sm:flex-col items-center">
-                <Identity class="" icon="pi-bullseye" :header="t('Identity.vision')" :text="t('Identity.visionText')" dark=true
+            <div class="flex max-sm:flex-col items-center justify-center">
+                <Identity class="" icon="pi-bullseye" :header="t('Identity.vision')" :text="t('Identity.visionText')"
+                    dark=true </Identity>
+                    <Identity class="" icon="pi-check" :header="t('Identity.mision')" :text="t('Identity.misionText')"
+                        dark="true">
                     </Identity>
-                    <Identity class="" icon="pi-check" :header="t('Identity.mision')" :text="t('Identity.misionText')" dark="true">
-                        </Identity>
             </div>
 
         </section>
@@ -88,11 +95,11 @@ const carouselData = computed(() => [
                 </Identity>
                 <Identity class="" icon="pi-arrows-alt" :header="t('Values.openMindness')" text="">
                 </Identity>
-                <Identity class="" icon="pi-user-plus" :header="t('Values.friendship')" text="" >
+                <Identity class="" icon="pi-user-plus" :header="t('Values.friendship')" text="">
                 </Identity>
                 <Identity class="" icon="pi-check-circle" :header="t('Values.improvement')" text="">
                 </Identity>
-                <Identity class="" icon="pi-comments" :header="t('Values.flexibility')" text="" >
+                <Identity class="" icon="pi-comments" :header="t('Values.flexibility')" text="">
                 </Identity>
             </div>
         </section>
@@ -102,7 +109,7 @@ const carouselData = computed(() => [
             <div class="w-8/12 max-md:w-11/12">
                 <h1 class="text-primary"> {{ t("International.localGroups") }}</h1>
                 <p>
-                   
+
                     {{ t("International.localGroupsText") }}
                 </p>
             </div>
@@ -111,7 +118,7 @@ const carouselData = computed(() => [
                     class="w-96 min-w-60 max-w-96 max-sm:w-20  rounded-sm m-2">
             </div>
         </section>
-        
+
     </div>
 
 </template>

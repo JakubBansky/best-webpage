@@ -36,18 +36,27 @@
     "hr": "HR - ľudské zdroje",
     "textPr": "Tím PR formuje imidž organizácie a oslovuje verejnosť. Spravuje sociálne médiá, vytvára propagačné materiály a angažuje sa v komunikácii s publikom, aby udržal všetkých informovaných a nadšených z našich podujatí a iniciatív. Ich cieľom je komunikovať naše hodnoty a aktivity širšej verejnosti.",
     "textCr": "Tím CR sa špecializuje na budovanie spojení s firmami a odborníkmi z praxe. Pracujú na zabezpečení partnerstiev, sponzorstiev a spoluprác, ktoré sú prínosné pre organizáciu aj jej členov. Tým, že budujú silné vzťahy s firmami, tím CR pomáha vytvárať kariérne podujatia, stáže a príležitosti na networking, čím premostujú študentov s profesionálnym svetom.",
-    "textHr": "Tím HR sa stará o pohodu členov a vnútornú organizáciu. Pracujú na nábore, organizujú teambuildingové podujatia a riešia akékoľvek problémy členov. Zameriavajú sa na vytvorenie podporujúceho prostredia, kde sa každý člen tímu cíti cenený a angažovaný."
+    "textHr": "Tím HR sa stará o pohodu členov a vnútornú organizáciu. Pracujú na nábore, organizujú teambuildingové podujatia a riešia akékoľvek problémy členov. Zameriavajú sa na vytvorenie podporujúceho prostredia, kde sa každý člen tímu cíti cenený a angažovaný.",
+    "mainText": "",
+    "president": "predseda",
+    "secretary": "sekretár",
+    "vp4hr": "VP pre HR",
+    "vp4cr": "VP pre CR", 
+    "vp4pr": "VP pre PR",
+    "vphr": "Vice President for Human Resources",
+    "vppr": "Vice President for Public Relations",
+    "vpcr": "Vice President for Company Relations"
   },
   "International": {
     "international": "Medzinárodný BEST",
-	"intro": "Založená v roku 1989, sme neustále rastúca nezisková a apolitická organizácia. Naším cieľom je ponúknuť študentom príležitosti na rozvoj nových zručností, ako aj objavovať rôzne kultúry, miesta a spojiť sa s ostatnými študentmi po celej Európe.",
+    "intro": "Založená v roku 1989, sme neustále rastúca nezisková a apolitická organizácia. Naším cieľom je ponúknuť študentom príležitosti na rozvoj nových zručností, ako aj objavovať rôzne kultúry, miesta a spojiť sa s ostatnými študentmi po celej Európe.",
     "localGroups": "Miestne BEST skupiny - LBG",
-	"localGroupsText":"BEST sa skladá z 84 miestnych skupín (LBGs) po celej Európe. Každá univerzita má svoju vlastnú skupinu, ktorá organizuje a propaguje rôzne podujatia a aktivity pre študentov. Okrem toho, že organizujeme skvelé akcie, ako job faires alebo prezentácie firiem, musíme aj zbierať financie na tieto projekty, pretože väčšina akcií je zadarmo. Aj keď je to náročné, získavame veľa cenných skúseností, učíme sa o iných kultúrach, nadväzujeme priateľstvá po celej Európe a užívame si to!",
+    "localGroupsText": "BEST sa skladá z 84 miestnych skupín (LBGs) po celej Európe. Každá univerzita má svoju vlastnú skupinu, ktorá organizuje a propaguje rôzne podujatia a aktivity pre študentov. Okrem toho, že organizujeme skvelé akcie, ako job faires alebo prezentácie firiem, musíme aj zbierať financie na tieto projekty, pretože väčšina akcií je zadarmo. Aj keď je to náročné, získavame veľa cenných skúseností, učíme sa o iných kultúrach, nadväzujeme priateľstvá po celej Európe a užívame si to!",
     "volunteers": "dobrovoľníkov",
     "countries": "krajín",
     "moreThan": "viac ako",
     "inNumbers": "BEST v číslach",
-	"learnMore": "Zisti viac o medzinárodnom BESTe"
+    "learnMore": "Zisti viac o medzinárodnom BESTe"
   },
   "Event": {
     "info": "Ako študentská organizácia organizujeme rôzne podujatia, ktoré pomáhajú študentom rozvíjať sa. Každým z týchto podujatí sa snažíme spojiť študentov, univerzity a firmy. Okrem vonkajších akcií máme aj množstvo interných eventov, ktoré sú super príležitosťou na zlepšenie zručností, nadväzovanie nových priateľstiev a budovanie silných vzťahov medzi našimi členmi. Je to skvelý spôsob, ako rásť osobne aj profesionálne v rámci našej komunity.",

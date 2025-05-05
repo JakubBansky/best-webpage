@@ -30,31 +30,31 @@
 				<div class="grid grid-cols-1 md:grid-cols-2 gap-10">
 					<BoardMember
 						:image="kikoImage"
-						name="Kristian Kapec"
+						name="Kristián Kapec"
 						position="President"
-						mail="k.k@best.com" />
+						mail="kristian.kapec@best-bratislava.sk" />
 					<BoardMember
 						:image="favicon"
 						name="Marek Holub"
 						position="Secretary"
-						mail="k.k@best.com" />
+						mail="marek.holub.ml@gmail.com" />
 				</div>
 				<div class="grid grid-cols-1 md:grid-cols-3 gap-10">
 					<BoardMember
 						:image="favicon"
 						name="Andrej Bitarovec"
 						position="VP4CR"
-						mail="k.k@best.com" />
+						mail="andrej.bitarovec@best-bratislava.sk" />
 					<BoardMember
 						:image="favicon"
 						name="Valeria Levchuk"
 						position="VP4PR"
-						mail="k.k@best.com" />
+						mail="valeriia.levchuk@best-bratislava.sk" />
 					<BoardMember
 						:image="favicon"
 						name="Dominik Hrdina"
 						position="VP4PR"
-						mail="k.k@best.com" />
+						mail="hrdina.dominik@gmail.com" />
 				</div>
 			</div>
 		</section>

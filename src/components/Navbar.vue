@@ -42,8 +42,9 @@
 					:links="[
 						{ to: '/BEST-Bratislava', translationKey: 'Navbar.baBest' },
 						{ to: '/BEST-international', translationKey: 'Navbar.intBest' },
-						{ to: '/join-us', translationKey: 'Navbar.joinUs' },
-					]"></dropdown>
+						// { to: '/join-us', translationKey: 'Navbar.joinUs' },
+					]">
+					</dropdown>
 
 				<router-link
 					to="/events"
@@ -69,7 +70,7 @@
 					{ to: '/BEST-Bratislava', translationKey: 'Navbar.baBest' },
 					{ to: '/BEST-international', translationKey: 'Navbar.intBest' },
 					// { to: '/board', translationKey: 'Navbar.board' },
-					{ to: '/join-us', translationKey: 'Navbar.joinUs' },
+					// { to: '/join-us', translationKey: 'Navbar.joinUs' },
 				]"></dropdown>
 			<Button
 				icon="pi pi-globe text-secondary"
